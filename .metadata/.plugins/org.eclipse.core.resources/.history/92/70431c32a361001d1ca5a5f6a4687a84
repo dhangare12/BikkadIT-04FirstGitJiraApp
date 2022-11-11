@@ -1,0 +1,18 @@
+package com.BikkadIT.Entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class User {
+
+	@Id
+	private int uid;
+	
+	private String Uname;
+	
+	private String email;
+	
+	private int age;
+	
+}
